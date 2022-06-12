@@ -43,7 +43,6 @@
     background-color: #FF5151;
 }
 .work{
-    /* height: 600px; */
     padding-bottom: 2%;
     width: 80%;
     display: grid;
@@ -57,6 +56,37 @@
     margin-top: -100px;
     margin-bottom: -20px;
 }
-.svg2{
-    /* margin-top: 10%; */
+/* Contact Section */
+.para{
+    font-family: 'Arima Madurai', cursive;
+    width: 70%;
+    margin: 2% auto;
+    color: white;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+.title{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: White;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.arrow{    
+    margin-left: 15px;
+    height: 16px;
+    width: 16px;
+}
+.form{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1.3em; 
+    padding-left: 2%;
+}
+.send-button{
+    z-index: 20;
+    color: gray;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
 }

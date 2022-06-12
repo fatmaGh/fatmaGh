@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import styled from 'styled-components'
 import site1 from '../images/site1.png'
 import site2 from '../images/site2.jpg'
 import site3 from '../images/site3.jpg'
@@ -13,27 +12,6 @@ import dev2 from '../images/tablette.png'
 import dev3 from '../images/mobile.png'
 import { useHistory } from "react-router-dom"
 import Presentation from '../Presentation/Presentation'
-
-
-
-const Title = styled.h1`
-`;  
-
-const Box = styled.section`
-`;
-
-const Curved = styled.div`
-`;
-
-const Work = styled.div`
-    
-`;
-
-const Img = styled.img`
-`;
-
-
-
 const Home = () => {
     
     const history = useHistory();
@@ -63,7 +41,7 @@ const Home = () => {
                     <div className='curved'>
                         <Contact/>
                     </div>
-                    <svg className='svg2' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF5151" fill-opacity="1" d="M0,192L60,208C120,224,240,256,360,261.3C480,267,600,245,720,224C840,203,960,181,1080,176C1200,171,1320,181,1380,186.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF5151" fill-opacity="1" d="M0,192L60,208C120,224,240,256,360,261.3C480,267,600,245,720,224C840,203,960,181,1080,176C1200,171,1320,181,1380,186.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
                 </div>
             <div>
                 <h1 className='title' data-aos='flip-left' style={{ color:'#3d5a80', margin:'-2% 0 3% 10%', textAlign:'center', fontSize:'2.2em', textTransform:'uppercase', letterSpacing:'1px', fontWeight:'700'}}>
