@@ -53,3 +53,10 @@
 .img{
     border-radius: 10px;
 }
+.svg{
+    margin-top: -100px;
+    margin-bottom: -20px;
+}
+.svg2{
+    /* margin-top: 10%; */
+}
