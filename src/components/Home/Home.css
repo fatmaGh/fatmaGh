@@ -1,0 +1,15 @@
+.itemHovered {
+    display:none;
+    position: absolute;    
+    height: 240px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgba(255, 81, 81, .95);
+    cursor: pointer;
+    padding-top: 70px;
+    transition: 0.3s;
+}
+
+.item:hover .itemHovered {
+    display: block; 
+} 

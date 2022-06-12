@@ -1,0 +1,171 @@
+h2 {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 2.5vw;
+    color: #FF5151;
+    text-transform:uppercase;    
+    font-weight: 700;  
+    letter-spacing: 0;  
+}
+
+/* .skills{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5em;  
+	 background: #e3edf7; 
+     padding: 100px; 
+    margin: 0 auto;
+} */
+
+/* .skill{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+} */
+
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+
+.inner{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0 12px 10px -10px rgba(0,0,0,0.05);
+}
+
+#number {
+    font-family: 'Arima Madurai', cursive;
+    color: #FF5151;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.number:hover {
+    cursor: pointer;
+}
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 260;
+    stroke-dashoffset: 260;
+}
+
+.html {    
+    animation: html 1s linear forwards;
+}
+
+@keyframes html {
+    100%{
+        stroke-dashoffset: 52;
+    }
+}
+
+.css {
+    
+    animation: css 1s linear forwards;
+}
+
+@keyframes css {
+    100%{
+        stroke-dashoffset: 65;
+    }
+}
+
+.scss {
+    
+    animation: scss 1s linear forwards;
+}
+
+@keyframes scss {
+    100%{
+        stroke-dashoffset: 143;
+    }
+}
+
+.react {
+    
+    animation: react 1s linear forwards;
+}
+
+@keyframes react {
+    100%{
+        stroke-dashoffset: 143;
+    }
+}
+
+.redux {
+    
+    animation: redux 1s linear forwards;
+}
+
+@keyframes redux {
+    100%{
+        stroke-dashoffset: 130;
+    }
+}
+
+.bootstrap {
+    
+    animation: bootstrap 1s linear forwards;
+}
+
+@keyframes bootstrap {
+    100%{
+        stroke-dashoffset: 26;
+    }
+}
+
+.mongo {
+    
+    animation: mongo 1s linear forwards;
+}
+
+@keyframes mongo {
+    100%{
+        stroke-dashoffset: 180;
+    }
+}
+
+.node {
+    
+    animation: node 1s linear forwards;
+}
+
+@keyframes node {
+    100%{
+        stroke-dashoffset: 130;
+    }
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h3 {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1.5em;
+    color: #FF5151;
+    padding: 10px;
+}
+    
