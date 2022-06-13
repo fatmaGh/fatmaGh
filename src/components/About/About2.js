@@ -1,14 +1,13 @@
 import React from 'react'
-import ProgressBar from 'react-animated-progress-bar';
 import Presentation from '../Presentation/Presentation'
 import './About.css'
 const About2 = () => {
     return (
         <div >
         <Presentation/>
-        <div className='skills'>
+        {/* <div className='skills'>
             <div>
-                <ProgressBar width="230" trackWidth="13" percentage="60" fontColor="gray" defColor={{ good: '#FF5151' }} />
+                <ProgressBar width="230" trackWidth="13" percentage="60" fontColor="gray" defColor={{ good: 'yellow' }} />
                 <h6 className='title' >HTML</h6>
             </div>
 
@@ -47,7 +46,7 @@ const About2 = () => {
                 <h6 className='title' >NodeJs</h6>
             </div>
 
-        </div>
+        </div> */}
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import Aos from 'aos'
-import arrow from '../images/arrow.png'
+import arrow from '../../images/arrow.png'
 import 'aos/dist/aos.css'
 import emailjs from 'emailjs-com'
 import { Form } from 'react-bootstrap'
