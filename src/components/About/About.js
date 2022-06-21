@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components'
 import './About.css'
 import Presentation from '../Presentation/Presentation';
-// import { counter } from '@fortawesome/fontawesome-svg-core';
 
 const Content = styled.div`
     width: 100%;

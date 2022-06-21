@@ -24,7 +24,8 @@
     width: 80%;
     background-color: #f2f2f2;
     border-radius: 5px;
-    margin: 1% auto;
+    margin: 2% auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .box-button{
     color:#3d5a80; 
@@ -37,6 +38,34 @@
     text-transform: capitalize;
     letter-spacing: 0;
 }
+.title-box{
+    color: #FF5151;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.button-box{
+    top: -20px;
+    right: -78.2%;
+    z-index: 1;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    color: #3d5a80;
+}
+.section-title{
+    color: #3d5a80;
+    margin: -2% 0 3% 10%;
+    text-align: center;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Arima Madurai', cursive;
+    width: 80%;
+
+}
 .title{
     font-family: 'Arima Madurai', cursive;
     width: 80%;
@@ -46,7 +75,7 @@
     color: #FF5151;
     letter-spacing: 2px;
     text-align: center;
-    margin-bottom: 0 auto 1.5% auto;
+    margin: 0 auto 1.5% auto;
 }
 /* Contact Section */
 .curved{
@@ -81,7 +110,7 @@
     letter-spacing: 0.8px;
     text-align: center;
 }
-.title{
+.title-item{
     font-family: 'Arima Madurai', cursive;
     font-weight: 500;
     font-size: 2.5em;
