@@ -6,9 +6,9 @@ import './Menu.css'
 const Menu = () => {
     return (
         <div className='header'>
-        <div className='logo-container'>
+        {/* <div className='logo-container'>
             <h1 className='logo'>fg</h1>
-        </div>
+        </div> */}
         <nav>            
             <NavLink className='link' activeClassName='activeLink' exact to='/' >Home</NavLink>
             <NavLink className='link' activeClassName='activeLink' exact to='/about'>About</NavLink>
