@@ -1,3 +1,7 @@
+.about{
+    width: 80%;
+    margin: auto;
+}
 h2 {
     font-family: 'Arima Madurai', cursive;
     font-size: 2.5vw;
@@ -6,26 +10,30 @@ h2 {
     font-weight: 700;  
     letter-spacing: 0;  
 }
-
-/* .skills{
-    width: 100%;
+.skills{ 
+    width: 80%;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
     grid-gap: 5em;  
-	 background: #e3edf7; 
-     padding: 100px; 
-    margin: 0 auto;
-} */
-
-/* .skill{
-    width: 160px;
-    height: 160px;
-    position: relative;
+    margin: 4% auto;
+    background: none;
+}
+.skill{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: blue;
-} */
+    height: 160px;
+    justify-content: space-between;
+}
+.skill-title{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1em;
+    color: #3d5a80;
+    text-transform:uppercase;    
+    font-weight: 700;  
+    letter-spacing: 0; 
+    text-align: center;
+    padding-top: 20px;
+}
 
 .outer{
     height: 160px;

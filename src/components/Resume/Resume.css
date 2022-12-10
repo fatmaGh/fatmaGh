@@ -1,0 +1,59 @@
+.resume{
+    height: 700px;
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: bisque; */
+}
+.res-header{
+    width: 80%;
+    /* background-color: beige; */
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+.res-logo{
+}
+.res-title{
+    font-family: 'Arima Madurai', cursive;
+    padding-top: 7%;
+}
+.res-sub-title{
+    color: #3D5A80;
+    font-size: 2em;
+
+}
+.res-subtitle{
+    color: #FF5151;
+    font-size: 1.2em;
+
+}
+.res-coord{
+    /* height: 160px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* flex-wrap: wrap;  */
+    /* margin-left: 30%; */
+    /* margin-top: 3%; */
+}
+.coord-links{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 200px;
+    /* background-color: green; */
+    text-align: left;
+}
+.coord-links img{
+    /* background-color: blue; */
+ }
+.coord-title{
+    color: #3D5A80;
+    font-size: 6px;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
+    text-decoration: none;
+    /* background-color: red; */
+    margin-left: 5%;
+}
+.res-container{}
+.res-footer{}

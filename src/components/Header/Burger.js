@@ -3,7 +3,6 @@ import Social from './Social'
 import styled from 'styled-components'
 
 const StyledBurger = styled.div`
-    /* padding-top: 15px; */
     height: 3.5rem;
     width: 5rem;
     position: fixed;
@@ -14,13 +13,11 @@ const StyledBurger = styled.div`
     justify-content: space-around;
     border-radius: 50%;
     cursor: pointer;
-    z-index: 20;
+    z-index: 20;    
     
     div {
         border-radius: 50%;
         background-color: ${({open}) => open ? 'white' : '#3d5a80'};
-        /* background-color: ${({open}) => open ? '#ffffff' : '#FF5151'}; */
-        /* background-color: #f3a6ad; EA636F */
         width: 3.5rem;
         height: 0.5rem;
         border-radius: 10px;
@@ -42,7 +39,6 @@ const StyledBurger = styled.div`
         }
         
     }
-
 `;
 
 const Burger = () => {
