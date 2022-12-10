@@ -9,16 +9,13 @@ body{
   font-family: 'Work Sans', sans-serif;
   background: url('http://www.emilyridge.ie/wp-content/themes/skeleostrnge/lib/img/bg.png');
   font-size: 1em;
-  /* width: 80%; */
   margin: 0 auto;
-  /* overflow: hidden; */
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
-
 
 /* BUTTON CSS */
 .button {
@@ -37,8 +34,6 @@ a {
   justify-content: center;
   line-height: 1.25;
   margin: 0;
-  /* min-height: 3rem; */
-  /* padding: calc(.875rem - 1px) calc(1.5rem - 1px); */
   position: relative;
   text-decoration: none;
   transition: all 250ms;
@@ -46,15 +41,12 @@ a {
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
-  /* width: auto; */
 }
 
 .button:hover,
 .button:focus {
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  /* color: rgba(0, 0, 0, 0.65); */
-
 }
 
 .button:hover {

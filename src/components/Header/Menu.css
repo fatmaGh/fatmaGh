@@ -1,37 +1,30 @@
 .header{
     display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    width: 50%;
-    height: 90px;
-    padding-top: 2%;
+    /* height: 1%; */
+    width: 100%;
 }
-.logo{
-    flex-basis: 5%;
-    font-family: cursive;
+.logo-container{
+    padding-left: -100px;
 }
 nav {
-    /* font-family: 'Old Standard TT', serif; */
     font-family: 'Arima Madurai', cursive;
-    /* font-family: 'Poiret One', cursive; */
-    text-transform: capitalize;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 700;
     display: flex;
-    justify-content: space-between;
-    /* color: #3d5a80; */
-    color: #f5b726;
-
-    width: 50%;
-    margin: 2% 0 2% -7%;
-    padding: 15px 35px 15px 35px;
+    height: 20px;
+    width: 100%;
+    margin-top: 10%;
+    color: #3D5A80;
+    text-transform: uppercase;
 }
 
 .link {
     position: relative;
-    padding: 0 10px;
+    padding: 0;
+    margin-left: 7%;
     color: inherit;
-    text-decoration: none;
+    text-decoration: none;  
+
 }
 
 .link:after {
