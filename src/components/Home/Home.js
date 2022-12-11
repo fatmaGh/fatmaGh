@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import site1 from '../../images/site1.png'
-import site2 from '../../images/site2.jpg'
+import site2 from '../../images/site4.jpg'
 import site3 from '../../images/site3.jpg'
 import '../../App.css'
 import Contact from './Contact'
@@ -48,41 +48,19 @@ const Home = () => {
                         <img data-aos='fade-left' src={site1}/>
                         <div className='itemHovered' style={{top:'1510px',left: '133px'}}>
                             <h1 className='title-item'  style={{color:'white', fontSize:'0.8em', marginLeft:'40px'}}>Website Design & Development</h1>
-                            <h1 className='title-item'  style={{color:'white', fontSize:'1.2em', paddingLeft:'20%'}}>Cherry Soda Events</h1>
-                            <button className="button" role="button" style={{top:'40px', left:'170px', zIndex:'1', height:'40px', width:'150px', fontSize:'1em'}}>
-                                View Website 
+                            <h1 className='title-item'  style={{color:'white', fontSize:'1.2em', paddingLeft:'20%'}}>Tch-industries</h1>
+                                <button className="button" role="button" style={{top:'40px', left:'170px', zIndex:'1', height:'40px', width:'150px', fontSize:'1em'}}>
+                                    <a className='web-links' href='https://www.tch-industries.com/' target='_blank'>
+                                        View Website 
+                                    </a>
+
                                 <svg style={{marginLeft:'10px'}} xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
                                     <path  fill="#FF5151" d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/>
                                 </svg>
-                            </button>
+                                </button>
                         </div>
                     </div>
-                     <div className='item'>
-                        <img data-aos='fade-up' src={site2}/>
-                        <div className='itemHovered' style={{top:'1398px',left: '500px'}}>
-                            <h1 className='title-item'  style={{color:'white', fontSize:'1.2em', paddingLeft:'20%'}}>LUNA & ZAAR</h1>
-                            <h1 className='title-item'  style={{color:'white', fontSize:'0.8em', marginLeft:'40px'}}>Website Design & Development</h1>
-                            <button className="button" role="button" style={{top:'40px', left:'170px', zIndex:'1', height:'40px', width:'150px', fontSize:'1em'}}>
-                                View Website 
-                                <svg style={{marginLeft:'10px'}} xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
-                                    <path  fill="#FF5151" d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>                    
-                    <div className='item'>
-                        <img data-aos='fade-left' src={site3}/>
-                        <div className='itemHovered' style={{top:'1398px',left: '866px'}}>
-                            <h1 className='title-item' style={{color:'white', fontSize:'1.2em', paddingLeft:'22%'}}>Portuguese Language School</h1>
-                            <h1 className='title-item' style={{color:'white', fontSize:'0.8em', marginLeft:'40px'}}>Website Design & Development</h1>
-                            <button className="button" role="button" style={{top:'15px', left:'170px', zIndex:'1', height:'40px', width:'150px', fontSize:'1em'}}>
-                                View Website 
-                                <svg style={{marginLeft:'10px'}} xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
-                                    <path  fill="#FF5151" d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
+                    
                     
                 </div>
             </div>

@@ -93,6 +93,13 @@
 .img{
     border-radius: 10px;
 }
+.web-links{
+    text-decoration: none;
+    color: #FF5151;
+}
+.web-links:hover{
+    color: #FF5151;
+}
 .svg{
     margin-top: -100px;
     margin-bottom: -20px;
