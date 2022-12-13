@@ -1,17 +1,4 @@
-.itemHovered {
-    display:none;
-    position: absolute;    
-    height: 240px;
-    width: 350px;
-    border-radius: 10px;
-    background-color: rgba(255, 81, 81, .95);
-    cursor: pointer;
-    padding-top: 70px;
-    transition: 0.3s;
-}
-.item:hover .itemHovered {
-    display: block; 
-} 
+
 .container{
     display: flex;
     flex-direction: column;
@@ -120,10 +107,25 @@
 .title-item{
     font-family: 'Arima Madurai', cursive;
     font-weight: 500;
-    font-size: 2.5em;
     color: White;
     letter-spacing: 2px;
     text-align: center;
+}
+.item1{
+    font-size: 0.8em;
+    margin-left: 40px;
+}
+.item2{
+    font-size: 1.2em;
+    padding-left: 20%;
+}
+.VS-button{
+    top: 40px;
+    left: 170px;
+    z-index: 1;
+    height: 40px;
+    width: 150px;
+    font-size: 1em;
 }
 .arrow{    
     margin-left: 15px;

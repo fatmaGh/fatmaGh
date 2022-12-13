@@ -45,11 +45,11 @@ const Home = () => {
                 </h1>
                 <div className='work'>
                     <div className='item'>
-                        <img data-aos='fade-left' src={site1}/>
-                        <div className='itemHovered' style={{top:'1510px',left: '133px'}}>
-                            <h1 className='title-item'  style={{color:'white', fontSize:'0.8em', marginLeft:'40px'}}>Website Design & Development</h1>
-                            <h1 className='title-item'  style={{color:'white', fontSize:'1.2em', paddingLeft:'20%'}}>Tch-industries</h1>
-                                <button className="button" role="button" style={{top:'40px', left:'170px', zIndex:'1', height:'40px', width:'150px', fontSize:'1em'}}>
+                        <div className='item1' ><img data-aos='fade-left' src={site1}/></div>
+                        <div className='itemHovered'>
+                            <h1 className='title-item item1'>Website Design & Development</h1>
+                            <h1 className='title-item item2'>Tch-industries</h1>
+                                <button className="button VS-button" role="button">
                                     <a className='web-links' href='https://www.tch-industries.com/' target='_blank'>
                                         View Website 
                                     </a>
