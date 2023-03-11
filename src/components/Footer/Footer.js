@@ -56,7 +56,8 @@ const Footer = () => {
             <Para>
                 <Item to='/'>Home </Item>|   
                 <Item to='/about'> About</Item> | 
-                <Item to='/work'> Portfolio </Item> |    
+                <Item to='/resume'> Resume</Item> | 
+                {/* <Item to='/work'> Portfolio </Item> |     */}
                 <Item to='mailto:fatma.ghaarsallah@gmail.com'> Contact </Item>    
                 {/* <a className='link' href="mailto:fatma.ghaarsallah@gmail.com">Contact</a>                 */}
             </Para>

@@ -23,11 +23,11 @@ const Resume = () => {
               <div>
               <div className='coord-links'>
                 <div ><img src={git}/></div>
-                <a href='https://github.com/fatmaGh' className='coord-title'>https://github.com/fatmaGh</a>
+                <a href='https://github.com/fatmaGh' target='_blank' className='coord-title'>https://github.com/fatmaGh</a>
               </div>
               <div className='coord-links'>
                 <div ><img src={linked}/></div>
-                <a href='https://www.linkedin.com/in/fatma-gharsallah-0535131a1/' className='coord-title'>https://www.linkedin.com/in/fatma-gharsallah-0535131a1/</a>
+                <a href='https://www.linkedin.com/in/fatma-gharsallah-0535131a1/' target='_blank' className='coord-title'>https://www.linkedin.com/in/fatma-gharsallah-0535131a1/</a>
               </div>
               </div>
               <div>
