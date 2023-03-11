@@ -62,6 +62,20 @@ const Resume = () => {
             <h4 className='res-contain-titles'>Education</h4>
             <ul>
               <li>
+                <span>Full-Stack Web Developpement Bootcamp</span>
+                <div className='content'>
+                  <div className='details'>
+                    <div><img src={calendar}/></div>
+                    <p>Mar 2021 <br/> Aug 2021</p>
+                  </div>
+                  <div className='details'>
+                    <div><img src={pin}/></div>
+                    <p>Tunis, Tunisia</p>
+                  </div>
+                </div>
+                <p>GOMYCODE</p>
+              </li>
+              <li>
                 <span>M.S. in IT applied in Management</span>
                 <div className='content'>
                   <div className='details'>
