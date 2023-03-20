@@ -123,6 +123,20 @@ const Resume = () => {
                 <p>Gioca Sarl</p>
                 <p>Create website's template using photoshop and illutrator</p>
               </li>
+              <li>
+                <span>Freelancer</span>
+                <div className='content'>
+                  <div className='details'>
+                    <div><img src={calendar}/></div>
+                    <p>2021 - 2023</p>
+                  </div>
+                  <div className='details'>
+                    <div><img src={pin}/></div>
+                    <p>Tunis, Tunisia</p>
+                  </div>
+                </div>
+                <p>Designing and Creating websites Using Html, Css and Javascript</p>
+              </li>
             </ul>
           </div>
         </div>
