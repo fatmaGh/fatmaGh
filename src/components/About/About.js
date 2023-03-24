@@ -1,201 +1,275 @@
-import React, { useState, useEffect } from 'react'
-import styled from 'styled-components'
-import './About.css'
-import Presentation from '../Presentation/Presentation';
+import React from "react";
+import Presentation from "../Presentation/Presentation";
+import "./About.css";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
+import { easeQuadInOut } from "d3-ease";
+import AnimatedProgressProvider from "./AnimatedProgressProvider";
 
-const Content = styled.div`
-    width: 100%;
-    margin: 2% auto;
-`;
+const html = 90;
+const css = 70;
+const About2 = () => {
+  return (
+    <div className="about">
+      <Presentation />
+      <div className="skills">
+        <div className="skill">
+          <AnimatedProgressProvider
+            valueStart={0}
+            valueEnd={90}
+            duration={0.7}
+            easingFunction={easeQuadInOut}
+          >
+            {(value) => {
+              const roundedValue = Math.round(value);
+              return (
+                <CircularProgressbar
+                  value={value}
+                  text={`${roundedValue}%`}
+                  background
+                  backgroundPadding={6}
+                  styles={buildStyles({
+                    backgroundColor: "#FF5151",
+                    textColor: "#fff",
+                    pathColor: "#fff",
+                    trailColor: "transparent",
+                    pathTransition: "none",
+                  })}
+                />
+              );
+            }}
+          </AnimatedProgressProvider>
+          <h6 className="skill-title">HTML</h6>
+        </div>
+        <div className="skill">
+          <AnimatedProgressProvider
+            valueStart={0}
+            valueEnd={70}
+            duration={0.7}
+            easingFunction={easeQuadInOut}
+          >
+            {(value) => {
+              const roundedValue = Math.round(value);
+              return (
+                <CircularProgressbar
+                  value={value}
+                  text={`${roundedValue}%`}
+                  background
+                  backgroundPadding={6}
+                  styles={buildStyles({
+                    backgroundColor: "#FF5151",
+                    textColor: "#fff",
+                    pathColor: "#fff",
+                    trailColor: "transparent",
+                    pathTransition: "none",
+                  })}
+                />
+              );
+            }}
+          </AnimatedProgressProvider>
+          <h6 className="skill-title">css</h6>
+        </div>
+        <div className="skill">
+          <AnimatedProgressProvider
+            valueStart={0}
+            valueEnd={60}
+            duration={0.7}
+            easingFunction={easeQuadInOut}
+          >
+            {(value) => {
+              const roundedValue = Math.round(value);
+              return (
+                <CircularProgressbar
+                  value={value}
+                  text={`${roundedValue}%`}
+                  background
+                  backgroundPadding={6}
+                  styles={buildStyles({
+                    backgroundColor: "#FF5151",
+                    textColor: "#fff",
+                    pathColor: "#fff",
+                    trailColor: "transparent",
+                    pathTransition: "none",
+                  })}
+                />
+              );
+            }}
+          </AnimatedProgressProvider>
+          <h6 className="skill-title">javascript</h6>
+        </div>
+        <div className="skill">
+          <AnimatedProgressProvider
+            valueStart={0}
+            valueEnd={50}
+            duration={0.7}
+            easingFunction={easeQuadInOut}
+          >
+            {(value) => {
+              const roundedValue = Math.round(value);
+              return (
+                <CircularProgressbar
+                  value={value}
+                  text={`${roundedValue}%`}
+                  background
+                  backgroundPadding={6}
+                  styles={buildStyles({
+                    backgroundColor: "#FF5151",
+                    textColor: "#fff",
+                    pathColor: "#fff",
+                    trailColor: "transparent",
+                    pathTransition: "none",
+                  })}
+                />
+              );
+            }}
+          </AnimatedProgressProvider>
+          <h6 className="skill-title">scss</h6>
+        </div>
+        <div className="skill">
+          <AnimatedProgressProvider
+            valueStart={0}
+            valueEnd={80}
+            duration={0.7}
+            easingFunction={easeQuadInOut}
+          >
+            {(value) => {
+              const roundedValue = Math.round(value);
+              return (
+                <CircularProgressbar
+                  value={value}
+                  text={`${roundedValue}%`}
+                  background
+                  backgroundPadding={6}
+                  styles={buildStyles({
+                    backgroundColor: "#FF5151",
+                    textColor: "#fff",
+                    pathColor: "#fff",
+                    trailColor: "transparent",
+                    pathTransition: "none",
+                  })}
+                />
+              );
+            }}
+          </AnimatedProgressProvider>
+          <h6 className="skill-title">ReactJs</h6>
+        </div>
+        <div className="skill">
+          <AnimatedProgressProvider
+            valueStart={0}
+            valueEnd={60}
+            duration={0.7}
+            easingFunction={easeQuadInOut}
+            // repeat
+          >
+            {(value) => {
+              const roundedValue = Math.round(value);
+              return (
+                <CircularProgressbar
+                  value={value}
+                  text={`${roundedValue}%`}
+                  background
+                  backgroundPadding={6}
+                  styles={buildStyles({
+                    backgroundColor: "#FF5151",
+                    textColor: "#fff",
+                    pathColor: "#fff",
+                    trailColor: "transparent",
+                    pathTransition: "none",
+                  })}
+                />
+              );
+            }}
+          </AnimatedProgressProvider>
+          <h6 className="skill-title">redux</h6>
+        </div>
+        <div className="skill">
+          <AnimatedProgressProvider
+            valueStart={0}
+            valueEnd={90}
+            duration={0.7}
+            easingFunction={easeQuadInOut}
+            // repeat
+          >
+            {(value) => {
+              const roundedValue = Math.round(value);
+              return (
+                <CircularProgressbar
+                  value={value}
+                  text={`${roundedValue}%`}
+                  background
+                  backgroundPadding={6}
+                  styles={buildStyles({
+                    backgroundColor: "#FF5151",
+                    textColor: "#fff",
+                    pathColor: "#fff",
+                    trailColor: "transparent",
+                    pathTransition: "none",
+                  })}
+                />
+              );
+            }}
+          </AnimatedProgressProvider>
+          <h6 className="skill-title">Bootstrap</h6>
+        </div>
+        <div className="skill">
+          <AnimatedProgressProvider
+            valueStart={0}
+            valueEnd={40}
+            duration={0.7}
+            easingFunction={easeQuadInOut}
+          >
+            {(value) => {
+              const roundedValue = Math.round(value);
+              return (
+                <CircularProgressbar
+                  value={value}
+                  text={`${roundedValue}%`}
+                  background
+                  backgroundPadding={6}
+                  styles={buildStyles({
+                    backgroundColor: "#FF5151",
+                    textColor: "#fff",
+                    pathColor: "#fff",
+                    trailColor: "transparent",
+                    pathTransition: "none",
+                  })}
+                />
+              );
+            }}
+          </AnimatedProgressProvider>
+          <h6 className="skill-title">mongodb</h6>
+        </div>
+        <div className="skill">
+          <AnimatedProgressProvider
+            valueStart={0}
+            valueEnd={60}
+            duration={0.7}
+            easingFunction={easeQuadInOut}
+          >
+            {(value) => {
+              const roundedValue = Math.round(value);
+              return (
+                <CircularProgressbar
+                  value={value}
+                  text={`${roundedValue}%`}
+                  background
+                  backgroundPadding={6}
+                  styles={buildStyles({
+                    backgroundColor: "#FF5151",
+                    textColor: "#fff",
+                    pathColor: "#fff",
+                    trailColor: "transparent",
+                    pathTransition: "none",
+                  })}
+                />
+              );
+            }}
+          </AnimatedProgressProvider>
+          <h6 className="skill-title">NodeJs</h6>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-const Skills = styled.div`
-    width: 80%;
-    margin: 2% auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-`;
-
-
-
-const About = () => {
-
-    const [count, setCount] = useState(0)
-    const [intervalId, setIntervalId] = useState(null)
-
-    // useEffect(() => {        
-    //     if(count != 80){
-    //         const id = setInterval(() => setCount(count => count+1),30)
-    //         setIntervalId(id)
-    //     }
-    //     else if(count == 80){
-    //         clearInterval(intervalId)
-    //     }
-    // }, [])
-
-    return (
-        <Content>
-            <Presentation/>
-            <Skills>
-                <h2>Skills...</h2>
-                <div className='skills'>
-                    <div className="skill">
-                        <div className="outer">
-                            <div className="inner">
-                                <div id="number">
-                                    {count} %
-                                </div>
-                            </div>
-                        </div>
-                        <svg className='circle' xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
-                            <defs>
-                                <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#FF5151" />
-                                    <stop offset="100%" stop-color="#3d5a80" />
-                                </linearGradient>
-                            </defs>
-                            <circle className='bootstrap' cx="80" cy="80" r="70" stroke-linecap="round" />
-                        </svg>
-                        <h3>html</h3>
-                    </div>
-                    <div className="skill">
-                        <div className="outer">
-                            <div className="inner">
-                                <div id="number">
-                                    75%
-                                </div>
-                            </div>
-                        </div>
-                        <svg className='circle' xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
-                            <defs>
-                                <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#FF5151" />
-                                    <stop offset="100%" stop-color="#673ab7" />
-                                </linearGradient>
-                            </defs>
-                            <circle className='bootstrap' cx="80" cy="80" r="70" stroke-linecap="round" />
-                        </svg>
-                        <h3>css</h3>
-                    </div>
-                    <div className="skill">
-                        <div className="outer">
-                            <div className="inner">
-                                <div id="number">
-                                    45%
-                                </div>                            
-                            </div>
-                        </div>
-                        <svg className='circle' xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
-                            <defs>
-                                <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#FF5151" />
-                                    <stop offset="100%" stop-color="#673ab7" />
-                                </linearGradient>
-                            </defs>
-                            <circle className='bootstrap' cx="80" cy="80" r="70" stroke-linecap="round" />
-                        </svg>
-                        <h3>scss</h3>
-                    </div>
-                    <div className="skill">
-                        <div className="outer">
-                            <div className="inner">
-                                <div id="number">
-                                    65%
-                                </div>                            
-                            </div>
-                        </div>
-                        <svg className='circle' xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
-                            <defs>
-                                <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#FF5151" />
-                                    <stop offset="100%" stop-color="#673ab7" />
-                                </linearGradient>
-                            </defs>
-                            <circle className='bootstrap' cx="80" cy="80" r="70" stroke-linecap="round" />
-                        </svg>
-                        <h3>react js</h3>
-                    </div>
-                    <div className="skill">
-                        <div className="outer">
-                            <div className="inner">
-                                <div id="number">
-                                    50%
-                                </div>                            
-                            </div>
-                        </div>
-                        <svg className='circle' xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
-                            <defs>
-                                <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#FF5151" />
-                                    <stop offset="100%" stop-color="#673ab7" />
-                                </linearGradient>
-                            </defs>
-                            <circle className='bootstrap' cx="80" cy="80" r="70" stroke-linecap="round" />
-                        </svg>
-                        <h3>redux</h3>
-                    </div>
-                    <div className="skill">
-                        <div className="outer">
-                            <div className="inner">
-                                <div id="number">
-                                    90%
-                                </div>                            
-                            </div>
-                        </div>
-                        <svg className='circle' xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
-                            <defs>
-                                <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#FF5151" />
-                                    <stop offset="100%" stop-color="#673ab7" />
-                                </linearGradient>
-                            </defs>
-                            <circle className='bootstrap' cx="80" cy="80" r="70" stroke-linecap="round" />
-                        </svg>
-                        <h3>bootstrap</h3>
-                    </div>
-                    <div className="skill">
-                        <div className="outer">
-                            <div className="inner">
-                                <div id="number">
-                                    30%
-                                </div>                            
-                            </div>
-                        </div>
-                        <svg className='circle' xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
-                            <defs>
-                                <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#FF5151" />
-                                    <stop offset="100%" stop-color="#673ab7" />
-                                </linearGradient>
-                            </defs>
-                            <circle className='bootstrap' cx="80" cy="80" r="70" stroke-linecap="round" />
-                        </svg>
-                        <h3>mongodb</h3>
-                    </div>
-                    <div className="skill">
-                        <div className="outer">
-                            <div className="inner">
-                                <div id="number">
-                                    50%
-                                </div>                            
-                            </div>
-                        </div>
-                        <svg className='circle' xmlns="http://www.w3.org/2000/svg" version="1.1" width="200px" height="200px">
-                            <defs>
-                                <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#FF5151" />
-                                    <stop offset="100%" stop-color="#673ab7" />
-                                </linearGradient>
-                            </defs>
-                            <circle className='bootstrap' cx="80" cy="80" r="70" stroke-linecap="round" />
-                        </svg>
-                        <h3>node js</h3>
-                    </div>
-                </div>
-            </Skills>
-
-        </Content>
-    )
-}
-
-export default About
+export default About2;
