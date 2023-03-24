@@ -5,21 +5,15 @@ import Contact from "./Contact";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Home.css";
-import Slide from "./Slide";
-import { useHistory } from "react-router-dom";
 import Presentation from "../Presentation/Presentation";
 const Home = () => {
-  const history = useHistory();
-  const handleClick = () => {
-    history.push("/portfolio");
-  };
+  
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
     <div className="container">
       <Presentation />
-      <Slide/>
       <div className="contact-section">
         <svg
           className="svg"
