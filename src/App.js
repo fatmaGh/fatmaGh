@@ -4,8 +4,9 @@ import Home from "./components/Home/Home";
 import About2 from "./components/About/About2";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
+// import Contact from './components/Home/Contact';
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter,Route, Routes,Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
