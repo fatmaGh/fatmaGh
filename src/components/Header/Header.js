@@ -15,7 +15,6 @@ const TopBar = styled.div`
 const Header = () => {
     return (
         <TopBar>
-            {/* <img className='logo' src={logo} height='200px' width='200px' /> */}
             <Menu/>
             <Burger/>
         </TopBar>
