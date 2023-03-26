@@ -7,7 +7,7 @@
 
 body{
   font-family: 'Work Sans', sans-serif;
-  background: url('http://www.emilyridge.ie/wp-content/themes/skeleostrnge/lib/img/bg.png');
+  background: url('/src/images/bg.png');
   font-size: 1em;
   margin: 0 auto;
 }
