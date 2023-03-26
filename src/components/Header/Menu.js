@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./Menu.css";
 import logo from "../../images/logo.png";
 
@@ -7,9 +7,9 @@ const Menu = () => {
   return (
     <div className="header">
       <div className="logo-container">
-        <a href="/home">
+        <Link to="/home">
           <img className="logo" src={logo} height="250px" width="250px" />
-        </a>
+        </Link>
       </div>
       <nav>
         <NavLink className="link" activeClassName="activeLink" exact to="/home">
