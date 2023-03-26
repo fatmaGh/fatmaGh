@@ -10,7 +10,8 @@ const html = 90;
 const css = 70;
 const About2 = () => {
   return (
-    <div className="about">
+    <div className="about" >
+      <a id="about-top"></a>
       <Presentation />
       <div className="skills">
         <div className="skill">
