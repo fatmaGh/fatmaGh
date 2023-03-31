@@ -8,10 +8,9 @@ import AnimatedProgressProvider from "./AnimatedProgressProvider";
 
 const html = 90;
 const css = 70;
-const About2 = () => {
+const About = () => {
   return (
     <div className="about" >
-      <a id="about-top"></a>
       <Presentation />
       <div className="skills">
         <div className="skill">
@@ -273,4 +272,4 @@ const About2 = () => {
   );
 };
 
-export default About2;
+export default About;
