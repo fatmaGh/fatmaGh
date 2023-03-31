@@ -62,9 +62,9 @@ const Resume = () => {
                   <div>
                     <img src={website} />
                   </div>
-                  <a href="/" className="coord-title">
+                  <Link to="/" className="coord-title">
                     https://fatmagh.github.io/fatmaGh/
-                  </a>
+                  </Link>
                 </div>
                 <div className="coord-links">
                   <div>
