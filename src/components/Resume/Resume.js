@@ -8,12 +8,13 @@ import phone from '../../images/whatsapp.png'
 import photo from '../../images/photo.png'
 import calendar from '../../images/calendar.png'
 import pin from '../../images/pin.png'
+import { Link } from 'react-router-dom'
 
 const Resume = () => {
   return (
     <section className='resume'>
       <div className='res-header'>
-          <a href='/' ><img className='res-logo' src={res_logo} height='200px' width='200px'/></a>
+          <Link to='/' ><img className='res-logo' src={res_logo} height='200px' width='200px'/></Link>
           <div className='res-title'>
             <h4 className='res-sub-title'>Fatma Gharsallah</h4>
             <p className='res-subtitle'>
@@ -33,7 +34,7 @@ const Resume = () => {
               <div>
               <div className='coord-links'>
                 <div ><img src={website}/></div>
-                <a href='/' className='coord-title'>Web Site</a>
+                <Link to='/' className='coord-title'>Web Site</Link>
               </div>
               <div className='coord-links'>
                 <div ><img src={phone}/></div>
