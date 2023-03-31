@@ -50,8 +50,8 @@ const Footer = () => {
   return (
     <Bottom>
       <Para>
-        <Item to="/fatmaGh">Home </Item>|<Item to="/fatmaGh/about">About</Item> |
-        <Item to="/fatmaGh/resume"> Resume</Item> |
+        <Item to="/">Home </Item>|<Item to="/about">About</Item> |
+        <Item to="/resume"> Resume</Item> |
         <Item to="mailto:fatma.ghaarsallah@gmail.com"> Contact </Item>
       </Para>
       <Para>
