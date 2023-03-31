@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/fatmaGh/static/css/main.4a84ccca.css",
-    "main.js": "/fatmaGh/static/js/main.f8e1459f.js",
-    "static/media/photo.png": "/fatmaGh/static/media/photo.4dcb0dd2daefd6ca05f2.png",
-    "static/media/Fatma_Gharsallah_Resume.pdf": "/fatmaGh/static/media/Fatma_Gharsallah_Resume.6ffb69ab60c96a53e343.pdf",
-    "static/media/site1.png": "/fatmaGh/static/media/site1.8d501565a3b5e66f877e.png",
-    "static/media/logo.png": "/fatmaGh/static/media/logo.540a4c2f529f8e8b48cb.png",
-    "static/media/bg.png": "/fatmaGh/static/media/bg.dc2f6d861233bc096b3c.png",
-    "index.html": "/fatmaGh/index.html",
-    "main.4a84ccca.css.map": "/fatmaGh/static/css/main.4a84ccca.css.map",
-    "main.f8e1459f.js.map": "/fatmaGh/static/js/main.f8e1459f.js.map"
+    "main.css": "/static/css/main.9b738b48.css",
+    "main.js": "/static/js/main.a79beda0.js",
+    "static/media/photo.png": "/static/media/photo.4dcb0dd2daefd6ca05f2.png",
+    "static/media/Fatma_Gharsallah_Resume.pdf": "/static/media/Fatma_Gharsallah_Resume.6ffb69ab60c96a53e343.pdf",
+    "static/media/site1.png": "/static/media/site1.8d501565a3b5e66f877e.png",
+    "static/media/logo.png": "/static/media/logo.540a4c2f529f8e8b48cb.png",
+    "static/media/bg.png": "/static/media/bg.dc2f6d861233bc096b3c.png",
+    "index.html": "/index.html",
+    "main.9b738b48.css.map": "/static/css/main.9b738b48.css.map",
+    "main.a79beda0.js.map": "/static/js/main.a79beda0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a84ccca.css",
-    "static/js/main.f8e1459f.js"
+    "static/css/main.9b738b48.css",
+    "static/js/main.a79beda0.js"
   ]
 }
