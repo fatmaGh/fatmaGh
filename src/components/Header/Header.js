@@ -2,7 +2,6 @@ import React from 'react'
 import Menu from './Menu'
 import Burger from './Burger'
 import styled from 'styled-components'
-import logo from '../../images/logo.png'
 
 const TopBar = styled.div`
     height: 15%;

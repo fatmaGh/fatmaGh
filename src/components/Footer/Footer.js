@@ -50,12 +50,12 @@ const Footer = () => {
   return (
     <Bottom>
       <Para>
-        <Item to="/home">Home </Item>|<Item to="/about">About</Item> |
+        <Item to="/">Home </Item>|<Item to="/about">About</Item> |
         <Item to="/resume"> Resume</Item> |
         <Item to="mailto:fatma.ghaarsallah@gmail.com"> Contact </Item>
       </Para>
       <Para>
-        Copyright © 2023 <Item to="/home"> Fatma Gharsallah</Item>• Tunisia based
+        Copyright © 2023 <Item to="/"> Fatma Gharsallah</Item>• Tunisia based
         Freelance Web Designer & Full-Stack Developer
       </Para>
       <Links>
