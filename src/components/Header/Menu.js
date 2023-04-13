@@ -7,22 +7,32 @@ const Menu = () => {
   return (
     <div className="header">
       <div className="logo-container">
-        <Link to="/">
+        <Link to="https://fatmaGh.github.io/fatmaGh">
           <img className="logo" src={logo} height="250px" width="250px" />
         </Link>
       </div>
       <nav>
-        <NavLink className="link" activeClassName="activeLink" exact to="/">
+        <NavLink
+          className="link"
+          activeClassName="activeLink"
+          exact
+          to="https://fatmaGh.github.io/fatmaGh"
+        >
           Home
         </NavLink>
-        <NavLink className="link" activeClassName="activeLink" exact to="about">
+        <NavLink
+          className="link"
+          activeClassName="activeLink"
+          exact
+          to="https://fatmaGh.github.io/fatmaGh/about"
+        >
           About
         </NavLink>
         <NavLink
           className="link"
           activeClassName="activeLink"
           exact
-          to="/resume"
+          to="https://fatmaGh.github.io/fatmaGh/resume"
         >
           Resume
         </NavLink>
