@@ -24,7 +24,7 @@ const Menu = () => {
           className="link"
           activeClassName="activeLink"
           exact
-          to="https://fatmaGh.github.io/fatmaGh/about"
+          to="https://fatmaGh.github.io/about"
         >
           About
         </NavLink>
@@ -32,7 +32,7 @@ const Menu = () => {
           className="link"
           activeClassName="activeLink"
           exact
-          to="https://fatmaGh.github.io/fatmaGh/resume"
+          to="https://fatmaGh.github.io/resume"
         >
           Resume
         </NavLink>
